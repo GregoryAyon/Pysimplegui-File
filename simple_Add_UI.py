@@ -6,8 +6,8 @@ def addFunc(num1, num2):
 sg.theme('DarkBrown')
 
 layout = [[sg.Text('-----Add APP-----')],
-        [sg.Text('Enter your 1st number:'),sg.InputText(size=(20,1),key='in_1')],
-        [sg.Text('Enter your 2nd number:'),sg.InputText(size=(20,1), key='in_2')],
+        [sg.Text('Enter your 1st number:',size=(20,1)),sg.InputText(size=(20,1),key='in_1')],
+        [sg.Text('Enter your 2nd number:',size=(20,1)),sg.InputText(size=(20,1), key='in_2')],
         [sg.Text('Output:')],
         [sg.Text('Output Here', key='-OUT-')],
         [sg.Button('Add'),sg.Button('Clear'), sg.Button('Exit')]]
